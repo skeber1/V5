@@ -82,7 +82,7 @@ const AOTE_ROUTES = {
     'mushroom gorge': parseAOTERoute('171 0 -170 20 -110 10 -40 -20 -10 -20 -10 -20 -10 -20 12 0 12 0'),
 };
 const PELT_NAMES = new Set(['Cow', 'Pig', 'Sheep', 'Chicken', 'Rabbit', 'Horse', 'Mooshroom', 'Dinnerbone']);
-const PELT_HP = new Set([100, 200, 500, 1000, 2000, 5000, 10000, 1024, 20000, 30000, 60000]);
+const PELT_HP = new Set([200, 400, 1000, 2000, 4000, 10000, 20000, 2048, 40000, 60000, 120000]);
 const MOB_REACHED_DISTANCE = 5;
 const MOB_KILL_TIMEOUT_DEFAULT_SECONDS = 30;
 const MOB_KILL_TIMEOUT_MIN_SECONDS = 15;

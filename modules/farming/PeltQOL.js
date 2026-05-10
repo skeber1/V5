@@ -5,7 +5,7 @@ import { Utils } from '../../utils/Utils';
 import Render from '../../utils/render/Render';
 
 const NAMES = new Set(['Cow', 'Pig', 'Sheep', 'Chicken', 'Rabbit', 'Horse', 'Mooshroom', 'Dinnerbone']);
-const HP = new Set([100, 200, 500, 1000, 2000, 5000, 10000, 1024, 20000, 30000, 60000]);
+const HP = new Set([200, 400, 1000, 2000, 4000, 10000, 20000, 2048, 40000, 60000, 120000]);
 const WHITE = [255, 255, 255];
 const RGB = {
     0: [0, 0, 0],
